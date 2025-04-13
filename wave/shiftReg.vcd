@@ -1,0 +1,102 @@
+$date
+	Sun Apr 13 22:41:09 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_shiftReg_4 $end
+$var wire 4 ! bits [3:0] $end
+$var reg 1 " CLK $end
+$var reg 1 # D $end
+$scope module r $end
+$var wire 1 " CLK $end
+$var wire 1 # D $end
+$var wire 4 $ bits [3:0] $end
+$scope module d0 $end
+$var wire 1 " CLK $end
+$var wire 1 # D $end
+$var reg 1 % Q $end
+$upscope $end
+$scope module d1 $end
+$var wire 1 " CLK $end
+$var wire 1 & D $end
+$var reg 1 ' Q $end
+$upscope $end
+$scope module d2 $end
+$var wire 1 " CLK $end
+$var wire 1 ( D $end
+$var reg 1 ) Q $end
+$upscope $end
+$scope module d3 $end
+$var wire 1 " CLK $end
+$var wire 1 * D $end
+$var reg 1 + Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+bx $
+1#
+0"
+bx !
+$end
+#20000
+1&
+bx1 !
+bx1 $
+1%
+1"
+#40000
+0"
+#60000
+1(
+bx11 !
+bx11 $
+1'
+1"
+#80000
+0"
+#100000
+1*
+bx111 !
+bx111 $
+1)
+1"
+#120000
+0"
+#140000
+b1111 !
+b1111 $
+1+
+1"
+#160000
+0"
+#180000
+1"
+#200000
+0"
+#220000
+1"
+#240000
+0"
+#260000
+1"
+#280000
+0"
+#300000
+1"
